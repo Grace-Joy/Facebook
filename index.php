@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="navbar">
-    <a href="#">Home</a>
+    <a href="welcome.php">Home</a>
     <a href="login.php">Login</a>
 </div>
 <div class="content">
@@ -39,9 +39,3 @@
 </div>
 </body>
 </html>
-
-</head>
-
-<body>
-
-</body>

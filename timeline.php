@@ -3,10 +3,15 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="navigation_bar.css"/>
 </head>
 <body>
 <div class="content">
-    <h3>TL</h3>
+    <div class="navbar">
+        <a href="timeline.php">Timeline</a>
+        <a href="friends.php">My Friends</a>
+        <a href="login.php">Logout</a>
+    </div>
     <div class="post-edit-layout">
         <textarea placeholder="Hello Grace What's on your mind?"></textarea>
         <button type="button">Post</button>
