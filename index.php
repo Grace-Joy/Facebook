@@ -3,8 +3,13 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="navigation_bar.css"/>
 </head>
 <body>
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="login.php">Login</a>
+</div>
 <div class="content">
     <form action="" method="POST">
         <ul style="list-style: none;">
