@@ -1,0 +1,15 @@
+.content {
+	padding: 50px;
+}
+.post-layout{
+ border: 1px solid black;
+}
+
+.simple-input {
+    display: block;
+    padding: 5px;
+    border: 4px solid #F1B720;
+    border-radius: 5px;
+    color: #333;
+    transition: all 0.3s ease-out;
+}
