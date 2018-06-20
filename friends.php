@@ -7,11 +7,7 @@
 </head>
 <body>
 <div class="content">
-    <div class="navbar">
-        <a href="timeline.php">Timeline</a>
-        <a href="friends.php">My Friends</a>
-        <a href="login.php">Logout</a>
-    </div>
+    <?php require_once 'navbar.php'?>
 
     <ul>
         <?php

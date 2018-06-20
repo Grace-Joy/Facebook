@@ -11,11 +11,11 @@
     <a href="index.php">Register</a>
 </div>
 <div class="content">
-    <form action="timeline.php" method="POST">
+    <form action="authentication.php" method="POST">
         <ul style="list-style: none;">
             <li>
                 <label>Username: </label>
-                <input class="simple-input" name="name" type="text" size="30"/>
+                <input class="simple-input" name="username" type="text" size="30"/>
             </li>
 
                 <label>Password: </label>

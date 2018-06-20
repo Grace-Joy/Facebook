@@ -1,4 +1,8 @@
 <?php include('config.php'); ?>
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,11 +11,8 @@
 </head>
 <body>
 <div class="content">
-    <div class="navbar">
-        <a href="timeline.php">Timeline</a>
-        <a href="friends.php">My Friends</a>
-        <a href="login.php">Logout</a>
-    </div>
+    <?php require_once 'navbar.php'?>
+
     <div class="post-edit-layout">
         <textarea placeholder="Hello Grace What's on your mind?"></textarea>
         <button type="button">Post</button>
@@ -44,16 +45,10 @@
         }
     } else {
 
-        echo "ERROR: Could not able to execute $sql. ". mysqli_error($conn);
+        echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
     }
     ?>
 
 </div>
 </body>
 </html>
-
-</head>
-
-<body>
-
-</body>

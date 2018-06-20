@@ -68,6 +68,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `users` (`id`, `username`, `names`, `email`, `password`, `liked_posts`, `disliked_posts`, `last_login`, `time_created`) VALUES
-(1,	'gracejoy',	'Grace Kanyanya',	'gracejoy.kanyanya@gmail.com',	'$2y$10$PNR57emJBdUmdYlHoBAb3OlQvGyg4NlI1pIL7n3I/Brtaf3W06DKe',	0,	0,	NULL,	NULL);
+(1,	'gracejoy',	'Grace Kanyanya',	'gracejoy.kanyanya@gmail.com',	'$2y$10$UjIOLG9tqHGm38Lh05eQRuSPOflM7ClVJoyKIX7pfczitOeyRSx0K',	0,	0,	NULL,	NULL);
 
 -- 2018-06-20 15:56:44
