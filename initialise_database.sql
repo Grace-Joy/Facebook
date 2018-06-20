@@ -60,8 +60,8 @@ CREATE TABLE `users` (
   `names` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` text NOT NULL,
-  `liked_posts` int(11) NOT NULL,
-  `disliked_posts` int(11) NOT NULL,
+  `liked_posts` int(11) NOT NULL DEFAULT '0',
+  `disliked_posts` int(11) NOT NULL DEFAULT '0',
   `last_login` timestamp NULL DEFAULT NULL,
   `time_created` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
@@ -70,4 +70,4 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `username`, `names`, `email`, `password`, `liked_posts`, `disliked_posts`, `last_login`, `time_created`) VALUES
 (1,	'gracejoy',	'Grace Kanyanya',	'gracejoy.kanyanya@gmail.com',	'$2y$10$PNR57emJBdUmdYlHoBAb3OlQvGyg4NlI1pIL7n3I/Brtaf3W06DKe',	0,	0,	NULL,	NULL);
 
--- 2018-06-19 09:37:10
+-- 2018-06-20 15:56:44

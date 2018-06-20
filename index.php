@@ -11,15 +11,15 @@
     <a href="login.php">Login</a>
 </div>
 <div class="content">
-    <form action="" method="POST">
+    <form action="registration.php" method="POST">
         <ul style="list-style: none;">
             <li>
                 <label>Username: </label>
-                <input class="simple-input" name="name" type="text" size="30"/>
+                <input class="simple-input" name="username" type="text" size="30"/>
             </li>
             <li>
                 <label>Names: </label>
-                <input class="simple-input" name="name" type="text" size="30"/>
+                <input class="simple-input" name="names" type="text" size="30"/>
             </li>
             <li>
                 <label>Email: </label>
@@ -27,14 +27,14 @@
             </li>
             <li>
                 <label>Password: </label>
-                <input class="simple-input" name="password" type="text" size="30"/>
+                <input class="simple-input" name="password" type="password" size="30"/>
             </li>
             <li>
                 <label>Confirm Password: </label>
-                <input class="simple-input" name="confirm_password" type="text" size="30"/>
+                <input class="simple-input" name="confirm_password" type="password" size="30"/>
             </li>
         </ul>
-        <input name="mySubmit" type="submit" value="Submit!"/>
+        <button type="submit">SIGN UP</button>
     </form>
 </div>
 </body>

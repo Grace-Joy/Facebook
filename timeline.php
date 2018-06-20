@@ -43,11 +43,7 @@
             echo "No matching records are found.";
         }
     } else {
-        /*echo password_hash("GEEJAY", PASSWORD_DEFAULT);
-        echo "<br>";
-        $password_match = password_verify ( "GEEJAY", "$2y$10\$x6xD3fPwp9hSXVimMAcRxOwXpU7ZO89HqxDyNqBAdLdE1z3eQ/aE.");
-        echo $password_match;
-        echo "<br>";*/
+
         echo "ERROR: Could not able to execute $sql. ". mysqli_error($conn);
     }
     ?>

@@ -19,7 +19,7 @@
             </li>
 
                 <label>Password: </label>
-                <input class="simple-input" name="password" type="text" size="30"/>
+                <input class="simple-input" name="password" type="password" size="30"/>
             </li>
 
         </ul>
