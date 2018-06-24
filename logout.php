@@ -5,6 +5,6 @@ session_unset();
 // destroy the session
 session_destroy();
 
-header("Location: http://localhost/Facebook/login.php");
+header("Location: http://localhost/Facebook/index.php");
 die();
 ?>

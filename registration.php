@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 6/19/18
- * Time: 12:33 PM
- */
+
 include_once('config.php');
 
 $username = $_POST['username'];
