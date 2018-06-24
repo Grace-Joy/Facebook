@@ -29,10 +29,7 @@ if ($result->num_rows > 0) {
     }
 
     if ($p == $pass) {
-
-        if (session_status() == PHP_SESSION_NONE) {
-            session_start();
-        }
+        session_start();
         $_SESSION["us_id"] = $row['id'];
         $_SESSION["username"] = $row['username'];
         $_SESSION["email"] = $row['email'];
