@@ -37,4 +37,4 @@ if ($conn->query($sql)) {
 } else {
     echo 'There was an error with your registration please try again.';
 }
-$conn->close();
+//$conn->close();

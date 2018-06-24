@@ -5,15 +5,15 @@
  * Date: 6/20/18
  * Time: 8:59 PM
  */
+include_once('config.php');
 
 $username = $_POST['username'];
 $pass = $_POST['password'];
-
 //$pass = password_hash($pass, PASSWORD_DEFAULT);
 
 $sql = "select * from users where username = '$username'";
-
 $result = $conn->query($sql);
+
 
 if ($result->num_rows > 0) {
     // output data of each row
@@ -29,7 +29,11 @@ if ($result->num_rows > 0) {
     }
 
     if ($p == $pass) {
-        session_start();
+
+        if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+        $_SESSION["us_id"] = $row['id'];
         $_SESSION["username"] = $row['username'];
         $_SESSION["email"] = $row['email'];
         $_SESSION["names"] = $row['names'];

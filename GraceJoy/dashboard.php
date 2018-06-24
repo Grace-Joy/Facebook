@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
     <body>
       
           <!--navbar-->
@@ -75,8 +75,8 @@
     <!--end dashbody-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
- <script src="js/bootstrap.min.js"></script>
- <script src="js/jquery.min.js"></script>
- <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="../js/bootstrap.min.js"></script>
+ <script src="../js/jquery.min.js"></script>
+ <script src="../js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
